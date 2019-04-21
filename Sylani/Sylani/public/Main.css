@@ -1,0 +1,393 @@
+  
+        *{
+            margin: 0 0 0 0 ;
+            font-family: "Dosis", sans-serif;
+            
+        }
+    .top-list li{
+        display: inline;
+        list-style: none;
+        background-color: #125C9B;
+        
+        font-size:12px; 
+        
+        
+    }
+    
+    .top-listgr1{
+        width: 1.5%;
+        height: 1.5%;
+        vertical-align: -15%;
+        filter:brightness(300%);
+    }
+        .toplislink:hover >img  {
+            transform: rotate(360deg);
+            transition: 1s;
+        }
+  
+    .FIRST-NAV{
+        background-color: #125C9B;
+        width: 100%;
+        
+        
+    }
+    .firstli{
+        padding-left: 1em;
+      
+        
+    }
+    
+    .toplislink{
+        text-decoration: none;
+        color: lightgreen;
+    }
+    .toplislink:hover{
+     text-decoration: underline;
+     font-weight: bold;
+     transform: rotate(360deg);
+              
+
+    }
+    .topleft{
+        margin-left: 15%;
+      
+        
+    }
+    .top-listgr2:hover{
+        transform: rotate(360deg);
+    transition: 1s;
+    
+    }
+
+.main-list{
+    list-style: none;
+    float: left;
+    position:static;
+    
+
+    
+}
+  
+  li .sub-menu{ 
+     padding-top: 0;
+      height: 0;
+      position:fixed;
+      visibility: hidden;
+      width: 17%;
+    background-color: #1F76BD;
+    padding-left: 0;
+    margin: 0;
+  opacity: 0;
+  z-index: 1;
+ 
+     
+      
+  }
+  .main-list:hover >ul{
+      height: auto;
+    transition: 1s;
+      opacity: 1;
+      position: absolute;
+      visibility:visible;
+     
+  }
+  .arrow{
+      color: white;
+  }
+  .top-list1{
+      background-color: #1F76BD;
+      overflow:hidden;
+  
+      width: 100%;
+      
+     
+      
+  }
+  .main-list a {
+      text-decoration: none;
+
+     
+     
+   
+  }
+
+  .logo{
+      margin-left: 0.5%;
+      float: left;
+      background-color: #1F76BD;    
+  }
+  .main-list >a {
+      font-size: 12px;
+      padding: 0.5em;
+     
+      vertical-align: middle;
+      line-height: 32px;
+    display: inline-block;
+color:aliceblue ;   
+text-decoration: none;
+      
+       
+      
+      
+  }
+img{
+    vertical-align: middle;
+}
+.sub-menu > li {
+    list-style: none;
+text-decoration: none;
+font-weight: bold;
+color:aliceblue !important;
+margin: 10px 0;
+transition: 0.2s;
+}
+
+.sub-menu a{
+    font-size: 14px;
+    color: aliceblue !important;
+    padding: 1em;
+    
+    
+    
+    
+}
+.main-menu li:hover >a {
+    color: #53B549;
+    transition: 0.2s;
+}
+.main-menu >li{
+    margin-left: 1%;
+}
+
+.child{
+            
+     
+      line-height: 32px;
+      
+      border-collapse: collapse;
+}   
+ul >.child:hover{
+    background-color:#53B549;
+}
+          
+     .slider{
+       margin-right: 1%;
+        box-shadow: 10px 10px 5px grey;
+        
+        
+     }
+    
+     .section > .sub-section{
+         float: right;
+        background-color:#53B549;
+         width:43%;
+         height: 19em;
+         padding: 1em;
+         margin: 1em;
+         background: linear-gradient(#53B549, green, #53B549);
+         text-align: center;
+         font-size: 16px;
+         position: relative;
+         margin-top: 10px;
+        box-shadow: 8px 8px lightgrey;
+
+       color: white;
+        }
+     
+         
+        
+       
+   
+.section img{
+   width: 78px;
+   height: 78px;
+   
+}
+
+.section{
+    
+    overflow: auto;
+    height: 46.25em;
+   
+    margin-top: 1%;
+    
+}
+   
+    
+   
+.sub-section a{
+    text-decoration: none;
+    color: white;
+    padding: 8px;   
+    background-color: green;
+    
+}  
+
+.sub-section a:hover{
+    border: 1px outset black;
+    transition: 0.5s;
+box-shadow:2px 3px  aliceblue;
+filter: brightness(150%);
+}
+.sub-section:hover{
+    filter: opacity(80%);
+}
+
+.bottom{
+    
+   width: 300;
+   height: 300;
+
+}
+.middle{
+    position: absolute;
+    background-color: #125C9B;
+    width: 300;
+    
+}
+.middle >a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.news-feed-list{
+    width: 20em;
+    height: 40em;
+    padding-left: 0;
+}
+
+.news-feed-list a{
+    text-decoration: none;
+    color: green;   
+   
+    
+}
+.news-feed-list li{
+    
+    
+    margin: 0;
+	padding: 36px 0 36px 84px;
+	list-style: none;
+	background-image: url("news.gif");
+	background-repeat: no-repeat;
+	background-position: left center;
+    background-size: 80px;
+    padding-bottom: 0;
+  
+    
+}
+
+
+h3{
+    color:#125C9B;
+}
+.news-feed{
+    
+    height: 60%;
+}
+.left-s{
+    float: left;
+    
+    width: 25%;
+    height: 46em;
+    border: 2px solid #125C9B;
+    margin-top: 1%;
+}
+
+.left-s a{
+    text-decoration: none;
+}
+.live-s:hover{
+    filter: opacity(0.5);
+    transition: 0.5s;
+}
+.button{
+    border-radius: 3px;
+    background-color: darkgrey;
+}
+.button:hover{
+    filter:opacity(0.6);
+
+}
+.button:active{
+    background-color:#125C9B;
+
+}
+.current{
+    text-align: center;
+}
+marquee a:hover{
+    color:red;
+    transition: 1s;
+   
+}
+.projects{
+    
+    overflow: auto;
+    height: 46.25em;
+   
+    margin-top: 1%;
+
+
+}
+
+.projects > .sub{
+    float: left;
+  
+    width:43%;
+    height: 19em;
+    padding: 1em;
+    margin: 1em;
+   
+    text-align: center;
+    font-size: 16px;
+    position: relative;
+    margin-top: 10px;
+   border-radius: 20px;
+   margin-left: 2.5%;
+  color: black;
+   }
+   .mass{
+       background-image: url("Mass-Figure-1.jpg");
+   }
+   .medical{
+    background-image: url("WhatsApp-Image-20160106-830x587.jpg");
+   }
+   .rescue{
+    background-image: url("25508094_2293081604051103_5971764351112273773_n.jpg");
+   }
+   .dastar{
+    background-image: url("23172476_2215454595147138_8509136231015295766_n.jpg");
+    background-size: 576px;
+   }
+   .projects a{
+       text-decoration: none;
+       color:#53B549;
+       
+   }
+   .projects h1{
+    background: rgba(10, 10, 12, 0.6);
+    
+   }
+   .main-pro{
+    color:#578BB8;
+   }
+   /* .size{
+       width: 10em;
+       text-align: center;
+   } */
